@@ -39,9 +39,9 @@ AWS credentials and region are configured in `.claude/settings.local.json` (giti
 
 This project has 4 specialized subagents. Use them by name when delegating tasks:
 - **tf-writer** — generates Terraform code (has Write access + project memory)
-- **security-auditor** — audits TF for security issues (Read-only, Sonnet)
-- **cost-optimizer** — reviews infra cost (Read-only, Haiku)
-- **drift-detector** — detects state drift (Bash, Haiku)
+- **security-auditor** — audits TF for security issues (Read-only)
+- **cost-optimizer** — reviews infra cost (Read-only)
+- **drift-detector** — detects state drift (Bash)
 
 ## Skills (`.claude/skills/`)
 
