@@ -2,7 +2,6 @@
 name: scaffold-terraform
 description: Generate complete Terraform infrastructure for S3 + CloudFront static site hosting. Use when setting up a new project or regenerating infrastructure files.
 allowed-tools: Bash, Read, Write, Grep, Glob
-disable-model-invocation: true
 argument-hint: "[aws-region] [project-name]"
 ---
 

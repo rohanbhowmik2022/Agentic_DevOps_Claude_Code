@@ -2,7 +2,6 @@
 name: tf-apply
 description: Run terraform apply to create or update AWS infrastructure. Use after reviewing a terraform plan.
 allowed-tools: Bash, Read
-disable-model-invocation: true
 ---
 
 Run `cd terraform && terraform apply -auto-approve -no-color` and verify the results.

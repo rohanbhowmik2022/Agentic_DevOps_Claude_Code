@@ -2,7 +2,6 @@
 name: tf-plan
 description: Run terraform plan and analyze the output for risks. Use before applying any infrastructure changes.
 allowed-tools: Bash, Read, Grep
-disable-model-invocation: true
 ---
 
 Run `cd terraform && terraform plan -no-color` and analyze the output.
